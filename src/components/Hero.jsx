@@ -118,13 +118,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      <a href="#about" className="scroll-cue" aria-label={t.hero.scroll}>
-        <span className="mouse">
-          <span className="wheel" />
-        </span>
-        {t.hero.scroll}
-      </a>
     </section>
   );
 }

@@ -692,51 +692,6 @@ header.scrolled .header-inner {
   }
 }
 
-.scroll-cue {
-  position: absolute;
-  bottom: 26px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.76rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.mouse {
-  width: 24px;
-  height: 38px;
-  border: 2px solid var(--border-strong);
-  border-radius: 14px;
-  display: flex;
-  justify-content: center;
-  padding-top: 7px;
-}
-
-.wheel {
-  width: 3px;
-  height: 8px;
-  border-radius: 3px;
-  background: var(--accent-2);
-  animation: wheel 1.6s ease-in-out infinite;
-}
-
-@keyframes wheel {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(12px);
-    opacity: 0;
-  }
-}
-
 /* ==========================================================================
    6. About
    ========================================================================== */

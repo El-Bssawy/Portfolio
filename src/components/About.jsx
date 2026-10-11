@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 
 const CODE_LINES = [
   [{ t: "const " }, { t: "me", c: "c-var" }, { t: " = {" }],
-  [{ t: "  name: " }, { t: '"Moaz El-Bssawy"', c: "c-str" }, { t: "," }],
+  [{ t: "  name: " }, { t: '"Moaz"', c: "c-str" }, { t: "," }],
   [{ t: "  role: " }, { t: '"Front-End Developer"', c: "c-str" }, { t: "," }],
   [
     { t: "  stack: [" },
