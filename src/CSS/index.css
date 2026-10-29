@@ -290,7 +290,7 @@ header.scrolled {
   border-radius: 999px;
   background: color-mix(in srgb, var(--glass) 60%, transparent);
   backdrop-filter: blur(14px) saturate(150%);
-  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  backdrop-filter: blur(14px) saturate(150%);
   transition:
     background 0.45s var(--ease),
     border-color 0.45s var(--ease),
@@ -300,7 +300,7 @@ header.scrolled {
 header.scrolled .header-inner {
   background: var(--glass);
   backdrop-filter: blur(18px) saturate(150%);
-  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  backdrop-filter: blur(18px) saturate(150%);
   border-color: var(--border);
   box-shadow: var(--shadow);
 }
