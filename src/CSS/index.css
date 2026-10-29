@@ -962,6 +962,16 @@ html[dir="rtl"] .marquee-track {
   gap: 18px;
 }
 
+.skills-extra {
+  margin-top: clamp(18px, 3vw, 34px);
+}
+
+.skills-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
 .skill-bar {
   padding: 20px;
   border: 1px solid var(--border);
@@ -1413,6 +1423,22 @@ html[dir="rtl"] .timeline-track::before {
 .copy-btn:hover {
   color: var(--accent-2);
   border-color: var(--accent-2);
+}
+
+.info-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-inline-start: auto;
+}
+
+.info-actions .copy-btn {
+  margin-inline-start: 0;
+}
+
+.whatsapp-btn:hover {
+  color: #25d366;
+  border-color: #25d366;
 }
 
 .social-block {

@@ -60,6 +60,8 @@ export const content = {
     skills: {
       title: "My Skills",
       subtitle: "A toolkit refined through real projects.",
+      showMore: "Show more",
+      showLess: "Show less",
     },
     projects: {
       title: "My Projects",
@@ -132,7 +134,7 @@ export const content = {
       text: "I'm always open to new opportunities, exciting projects or just a friendly chat. Drop me a message and I'll get back to you as soon as I can.",
       info: [
         { icon: "fa-regular fa-envelope", title: "Email", value: "mzh9392@gmail.com", ltr: true },
-        { icon: "fa-solid fa-phone-volume", title: "Phone", value: "+20 104 334 8575", ltr: true },
+        { icon: "fa-solid fa-phone-volume", title: "Phone", value: "+20 104 334 8575", ltr: true, whatsapp: "https://wa.me/201043348575" },
         { icon: "fa-solid fa-location-dot", title: "Location", value: "Kafr El-Sheikh, Egypt" },
         { icon: "fa-regular fa-clock", title: "Availability", value: "Open to opportunities" },
       ],
@@ -209,6 +211,8 @@ export const content = {
     skills: {
       title: "مهاراتي",
       subtitle: "مجموعة أدوات صقلتها من خلال مشاريع حقيقية.",
+      showMore: "عرض المزيد",
+      showLess: "عرض أقل",
     },
     projects: {
       title: "مشاريعي",
@@ -267,7 +271,7 @@ export const content = {
       text: "أرحّب دائماً بالفرص الجديدة والمشاريع المميّزة أو مجرّد دردشة ودّية. أرسل لي رسالة وسأرد عليك في أقرب وقت.",
       info: [
         { icon: "fa-regular fa-envelope", title: "البريد", value: "mzh9392@gmail.com", ltr: true },
-        { icon: "fa-solid fa-phone-volume", title: "الهاتف", value: "+20 104 334 8575", ltr: true },
+        { icon: "fa-solid fa-phone-volume", title: "الهاتف", value: "+20 104 334 8575", ltr: true, whatsapp: "https://wa.me/201043348575" },
         { icon: "fa-solid fa-location-dot", title: "الموقع", value: "كفر الشيخ، مصر" },
         { icon: "fa-regular fa-clock", title: "التوفّر", value: "متاح للفرص" },
       ],

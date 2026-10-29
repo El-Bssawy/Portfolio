@@ -32,20 +32,27 @@ export const techLogos = [
   { name: "GitHub", img: Github },
 ];
 
-// Two balanced columns of progress bars for the Skills section.
+// Progress bars for the Skills section. A focused set is visible and the
+// remaining skills are revealed with the "Show more" toggle.
 export const skillBars = {
   left: [
     { name: "HTML", img: HTML, level: 95 },
     { name: "CSS", img: CSS, level: 90 },
     { name: "JavaScript", img: JS, level: 85 },
     { name: "TypeScript", img: TypeScript, level: 82 },
-    { name: "React", img: React, level: 90 },
   ],
   right: [
+    { name: "React", img: React, level: 90 },
     { name: "SASS", img: SASS, level: 90 },
     { name: "PugJS", img: PugJs, level: 88 },
     { name: "PHP", img: PHP, level: 80 },
+  ],
+  extraLeft: [
+    { name: "jQuery", img: jQuery, level: 80 },
     { name: "Python", img: Python, level: 85 },
-    { name: "Git & GitHub", img: Git, level: 80 },
+  ],
+  extraRight: [
+    { name: "Git", img: Git, level: 80 },
+    { name: "GitHub", img: Github, level: 82 },
   ],
 };

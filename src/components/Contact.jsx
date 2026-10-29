@@ -43,18 +43,32 @@ export default function Contact() {
                       {info.value}
                     </span>
                   </div>
-                  <button
-                    type="button"
-                    className="copy-btn"
-                    onClick={() => copy(info.value, i)}
-                    aria-label="Copy"
-                  >
-                    <i
-                      className={
-                        copied === i ? "fa-solid fa-check" : "fa-regular fa-copy"
-                      }
-                    ></i>
-                  </button>
+                  <div className="info-actions">
+                    {info.whatsapp && (
+                      <a
+                        className="copy-btn whatsapp-btn"
+                        href={info.whatsapp}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="WhatsApp"
+                        title="WhatsApp"
+                      >
+                        <i className="fa-brands fa-whatsapp"></i>
+                      </a>
+                    )}
+                    <button
+                      type="button"
+                      className="copy-btn"
+                      onClick={() => copy(info.value, i)}
+                      aria-label="Copy"
+                    >
+                      <i
+                        className={
+                          copied === i ? "fa-solid fa-check" : "fa-regular fa-copy"
+                        }
+                      ></i>
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>

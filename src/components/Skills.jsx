@@ -30,6 +30,7 @@ export default function Skills() {
   const { t } = useLang();
   const ref = useRef(null);
   const [active, setActive] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
@@ -66,6 +67,37 @@ export default function Skills() {
               <SkillBar key={s.name} skill={s} active={active} />
             ))}
           </Reveal>
+        </div>
+
+        {expanded && (
+          <div className="skills-grid skills-extra">
+            <div className="skills-col">
+              {skillBars.extraLeft.map((s) => (
+                <SkillBar key={s.name} skill={s} active={active} />
+              ))}
+            </div>
+            <div className="skills-col">
+              {skillBars.extraRight.map((s) => (
+                <SkillBar key={s.name} skill={s} active={active} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="skills-more">
+          <button
+            type="button"
+            className="btn btn-ghost"
+            onClick={() => setExpanded((v) => !v)}
+            aria-expanded={expanded}
+          >
+            {expanded ? t.skills.showLess : t.skills.showMore}
+            <i
+              className={
+                expanded ? "fa-solid fa-chevron-up" : "fa-solid fa-chevron-down"
+              }
+            ></i>
+          </button>
         </div>
       </div>
     </section>
