@@ -36,6 +36,18 @@ export default function About() {
             <h3>{a.heading}</h3>
             <p>{a.bio}</p>
 
+            <div className="about-cta">
+              <a
+                className="btn btn-primary"
+                href={`${import.meta.env.BASE_URL}Moaz_Hamada_Salem_Resume.pdf`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-solid fa-file-arrow-down"></i>
+                {a.cv}
+              </a>
+            </div>
+
             <div className="about-features">
               {a.features.map((f) => (
                 <div className="feature" key={f.title}>

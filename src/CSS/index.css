@@ -716,6 +716,10 @@ header.scrolled .header-inner {
   font-size: 1.02rem;
 }
 
+.about-cta {
+  margin-top: 26px;
+}
+
 .about-features {
   display: grid;
   gap: 18px;

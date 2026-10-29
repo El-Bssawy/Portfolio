@@ -55,6 +55,7 @@ export const content = {
         { value: "100%", label: "Passion" },
       ],
       stackTitle: "Tech I work with",
+      cv: "View CV",
     },
     skills: {
       title: "My Skills",
@@ -201,6 +202,7 @@ export const content = {
         { value: "100%", label: "شغف" },
       ],
       stackTitle: "التقنيات التي أستخدمها",
+      cv: "عرض السيرة الذاتية",
     },
     skills: {
       title: "مهاراتي",
