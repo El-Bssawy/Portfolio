@@ -44,6 +44,16 @@ export default function Contact() {
                     </span>
                   </div>
                   <div className="info-actions">
+                    {info.mailto && (
+                      <a
+                        className="copy-btn mail-btn"
+                        href={info.mailto}
+                        aria-label="Email"
+                        title="Email"
+                      >
+                        <i className="fa-regular fa-envelope"></i>
+                      </a>
+                    )}
                     {info.whatsapp && (
                       <a
                         className="copy-btn whatsapp-btn"
