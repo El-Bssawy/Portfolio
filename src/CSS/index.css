@@ -1714,9 +1714,9 @@ footer {
     padding: 10px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    background: color-mix(in srgb, var(--glass) 70%, transparent);
-    backdrop-filter: blur(36px) saturate(180%);
-    -webkit-backdrop-filter: blur(36px) saturate(180%);
+    background: var(--glass);
+    backdrop-filter: blur(18px) saturate(150%);
+    -webkit-backdrop-filter: blur(18px) saturate(150%);
     box-shadow: var(--shadow);
     display: grid;
     gap: 4px;
