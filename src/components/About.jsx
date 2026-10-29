@@ -6,14 +6,14 @@ import Reveal from "./Reveal";
 const CODE_LINES = [
   [{ t: "const " }, { t: "me", c: "c-var" }, { t: " = {" }],
   [{ t: "  name: " }, { t: '"Moaz"', c: "c-str" }, { t: "," }],
-  [{ t: "  role: " }, { t: '"Front-End Developer"', c: "c-str" }, { t: "," }],
+  [{ t: "  role: " }, { t: '"Web Developer"', c: "c-str" }, { t: "," }],
   [
     { t: "  stack: [" },
     { t: '"React"', c: "c-str" },
     { t: ", " },
-    { t: '"SASS"', c: "c-str" },
+    { t: '"TypeScript"', c: "c-str" },
     { t: ", " },
-    { t: '"JS"', c: "c-str" },
+    { t: '"PHP"', c: "c-str" },
     { t: "]," },
   ],
   [{ t: "  experience: " }, { t: '"1.5 years"', c: "c-str" }, { t: "," }],

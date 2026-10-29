@@ -18,7 +18,7 @@ export const content = {
       greeting: "Hello, I'm",
       firstName: "Moaz",
       name: "El-Bssawy",
-      roles: ["Front-End Developer", "React Developer", "UI Engineer"],
+      roles: ["Web Developer", "React Developer", "UI Engineer"],
       experience: "1.5+ years of experience",
       tagline:
         "I turn ideas into fast, accessible and pixel-perfect web experiences that feel as good as they look.",
@@ -30,7 +30,7 @@ export const content = {
     about: {
       title: "About me",
       heading: "Building the web, one clean line at a time",
-      bio: "I'm a Front-End Web Developer who loves crafting responsive, interactive interfaces with HTML, CSS, JavaScript, React, Sass and PugJS. I focus on writing clean, maintainable code and turning UI/UX designs into smooth, real-world products — from reusable components and performance tuning to cross-browser polish and API integration.",
+      bio: "I'm a Web Developer who loves crafting responsive, interactive interfaces with HTML, CSS, JavaScript, TypeScript, React, PHP, Sass and PugJS. I focus on writing clean, maintainable code and turning UI/UX designs into smooth, real-world products — from reusable components and performance tuning to cross-browser polish and API integration.",
       features: [
         {
           icon: "fa-solid fa-bullseye",
@@ -100,6 +100,7 @@ export const content = {
           points: [
             "Worked with Sass & PugJS",
             "Shipped fully responsive templates",
+            "Added TypeScript & PHP to my stack",
             "Started building this portfolio",
           ],
         },
@@ -111,6 +112,7 @@ export const content = {
           points: [
             "Going deeper into React & modern tooling",
             "Building reusable component systems",
+            "Building full web apps with TypeScript & PHP",
             "Taking on freelance work",
           ],
         },
@@ -165,7 +167,7 @@ export const content = {
       greeting: "أهلاً، أنا",
       firstName: "",
       name: "معاذ",
-      roles: ["مطوّر واجهات أمامية", "مطوّر React", "مهندس UI"],
+      roles: ["مطوّر ويب", "مطوّر React", "مهندس UI"],
       experience: "سنة ونصف خبرة",
       tagline:
         "أحوّل الأفكار إلى تجارب ويب سريعة وسلسة ومتقنة — تبدو بنفس جمال استخدامها.",
@@ -177,7 +179,7 @@ export const content = {
     about: {
       title: "نبذة عني",
       heading: "أبني الويب، سطر نظيف وراء سطر",
-      bio: "مطوّر واجهات أمامية، أحب بناء واجهات تفاعلية ومتجاوبة باستخدام HTML و CSS و JavaScript و React و Sass و PugJS. أركّز على كتابة كود نظيف وسهل الصيانة، وأحوّل تصاميم UI/UX إلى منتجات حقيقية سلسة — من المكوّنات القابلة لإعادة الاستخدام وتحسين الأداء إلى توافق المتصفحات وربط الـ APIs.",
+      bio: "مطوّر ويب، أحب بناء واجهات تفاعلية ومتجاوبة باستخدام HTML و CSS و JavaScript و TypeScript و React و PHP و Sass و PugJS. أركّز على كتابة كود نظيف وسهل الصيانة، وأحوّل تصاميم UI/UX إلى منتجات حقيقية سلسة — من المكوّنات القابلة لإعادة الاستخدام وتحسين الأداء إلى توافق المتصفحات وربط الـ APIs.",
       features: [
         {
           icon: "fa-solid fa-bullseye",
@@ -240,14 +242,14 @@ export const content = {
           icon: "fa-solid fa-rocket",
           color: "purple",
           title: "الاحتراف",
-          points: ["عملت بـ Sass و PugJS", "أطلقت قوالب متجاوبة بالكامل", "بدأت بناء هذا البورتفوليو"],
+          points: ["عملت بـ Sass و PugJS", "أطلقت قوالب متجاوبة بالكامل", "أضفت TypeScript و PHP إلى أدواتي", "بدأت بناء هذا البورتفوليو"],
         },
         {
           year: "2026",
           icon: "fa-brands fa-react",
           color: "orange",
           title: "المرحلة الحالية",
-          points: ["التعمّق في React والأدوات الحديثة", "بناء أنظمة مكوّنات قابلة لإعادة الاستخدام", "بدء العمل الحر"],
+          points: ["التعمّق في React والأدوات الحديثة", "بناء أنظمة مكوّنات قابلة لإعادة الاستخدام", "أبني تطبيقات ويب متكاملة بـ TypeScript و PHP", "بدء العمل الحر"],
         },
         {
           year: "القادم",
