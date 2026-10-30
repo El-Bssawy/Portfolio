@@ -963,7 +963,7 @@ html[dir="rtl"] .marquee-track {
 }
 
 .skills-extra {
-  margin-top: clamp(18px, 3vw, 34px);
+  margin-top: 18px;
 }
 
 .skills-more {
@@ -1784,6 +1784,10 @@ footer {
 
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  .skills-extra {
+    margin-top: clamp(18px, 3vw, 34px);
   }
 
   .form-row {
