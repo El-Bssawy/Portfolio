@@ -1676,7 +1676,29 @@ footer {
 }
 
 /* ==========================================================================
-   12. Responsive
+   12. Glass surfaces
+   ==========================================================================
+   Every semi-transparent box gets a real frosted-glass blur. */
+.btn-ghost,
+.pill-btn,
+.hero-badge,
+.hero-exp,
+.hero-social a,
+.social-links a,
+.copy-btn,
+.info-row,
+.stat,
+.feature,
+.skill-bar,
+.project-card,
+.project-tags span,
+.filters button {
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  backdrop-filter: blur(14px) saturate(160%);
+}
+
+/* ==========================================================================
+   13. Responsive
    ========================================================================== */
 @media (max-width: 1024px) {
   .hero-inner {
