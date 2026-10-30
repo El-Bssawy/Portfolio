@@ -896,6 +896,10 @@ html[dir="rtl"] .feature:hover {
 .c-str {
   color: #c3e88d;
 }
+/* The mint green is unreadable on the light theme, so use a deeper green. */
+html[data-theme="light"] .c-str {
+  color: #15803d;
+}
 .c-bool {
   color: #ffb454;
 }
@@ -1514,7 +1518,7 @@ html[dir="rtl"] .timeline-track::before {
 }
 
 .contact-form textarea {
-  resize: vertical;
+  resize: none;
   min-height: 130px;
 }
 

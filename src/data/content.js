@@ -119,6 +119,17 @@ export const content = {
           ],
         },
         {
+          year: "2027",
+          icon: "fa-solid fa-laptop-code",
+          color: "green",
+          title: "PHP & TypeScript Projects",
+          points: [
+            "Building full-stack apps with PHP",
+            "Building fully typed apps with TypeScript",
+            "Shipping both to production",
+          ],
+        },
+        {
           year: "Next",
           icon: "fa-solid fa-star",
           color: "blue",
@@ -254,6 +265,13 @@ export const content = {
           color: "orange",
           title: "المرحلة الحالية",
           points: ["التعمّق في React والأدوات الحديثة", "بناء أنظمة مكوّنات قابلة لإعادة الاستخدام", "أبني تطبيقات ويب متكاملة بـ TypeScript و PHP", "بدء العمل الحر"],
+        },
+        {
+          year: "2027",
+          icon: "fa-solid fa-laptop-code",
+          color: "green",
+          title: "مشاريع بـ PHP و TypeScript",
+          points: ["بناء تطبيقات متكاملة بـ PHP", "بناء تطبيقات مكتوبة بالكامل بـ TypeScript", "نشرها على الإنترنت"],
         },
         {
           year: "القادم",
