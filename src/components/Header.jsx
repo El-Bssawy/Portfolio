@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLang } from "../context/language";
 import { ui } from "../data/content";
-import logo from "../assets/Logo/logo.png";
+
+const logo = `${import.meta.env.BASE_URL}logo.png`;
 
 const SECTIONS = ["home", "about", "skills", "projects", "timeline", "contact"];
 

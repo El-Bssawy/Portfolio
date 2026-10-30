@@ -8,7 +8,7 @@ import Git from "../assets/Skills/Git.png";
 import Github from "../assets/Skills/Github.png";
 import HTML from "../assets/Skills/HTML.png";
 import jQuery from "../assets/Skills/jQuery.png";
-import JS from "../assets/Skills/JavaScript.svg";
+import JS from "../assets/Skills/JS.png";
 import PHP from "../assets/Skills/PHP.svg";
 import PugJs from "../assets/Skills/PugJs.png";
 import Python from "../assets/Skills/Python.png";

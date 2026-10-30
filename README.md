@@ -1,19 +1,61 @@
-# React + Vite
+# Moaz El-Bssawy — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website of **Moaz El-Bssawy**, Web Developer.
 
-Currently, two official plugins are available:
+A dark, neon-themed single page built with **React + Vite**, fully bilingual (**English / العربية** with RTL support) and available in both dark and light themes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live site
 
-## React Compiler
+https://el-bssawy.github.io/Portfolio/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- React 19 + Vite
+- Plain CSS (custom properties, no UI framework)
+- Font Awesome (self-hosted webfonts)
+- GitHub Actions → GitHub Pages
 
-## Expanding the ESLint configuration
+## Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hero — intro, CV download, tech chips
+- About — bio, code card, tech logo marquee, CV button
+- Skills — animated skill bars with a "show more" block
+- Projects — filterable grid with a "show more" button
+- Timeline — journey / roadmap
+- Contact — Formspree form, email, phone (WhatsApp)
+
+## Getting started
+
+```bash
+npm install
+npm run dev      # http://localhost:3000/Portfolio/
+npm run build    # production build into dist/
+npm run preview  # preview the production build
+npm run lint     # eslint
+```
+
+## Project structure
+
+```
+public/            static files (logo, CV pdf)
+src/
+  assets/          images and skill logos
+  components/      React sections and UI pieces
+  context/         language provider (EN/AR + RTL)
+  CSS/             global styles, Font Awesome, normalize
+  data/            site content, projects, skills
+  webfonts/        self-hosted Font Awesome woff2 files
+```
+
+## Editing content
+
+- Text (EN/AR): `src/data/content.js`
+- Projects: `src/data/projects.js`
+- Skills and logos: `src/data/skills.js`
+- CV file: replace `public/Moaz_Hamada_Salem_Resume.pdf`
+
+## Deployment
+
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages.
+
+The Vite `base` is set to `/Portfolio/` in `vite.config.js` so asset URLs resolve correctly on the Pages subpath.
