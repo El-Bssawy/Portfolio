@@ -8,7 +8,7 @@ import Git from "../assets/Skills/Git.png";
 import Github from "../assets/Skills/Github.png";
 import HTML from "../assets/Skills/HTML.png";
 import jQuery from "../assets/Skills/jQuery.png";
-import JS from "../assets/Skills/JS.png";
+import JS from "../assets/Skills/JavaScript.svg";
 import PHP from "../assets/Skills/PHP.svg";
 import PugJs from "../assets/Skills/PugJs.png";
 import Python from "../assets/Skills/Python.png";
@@ -29,7 +29,7 @@ export const techLogos = [
   { name: "PHP", img: PHP },
   { name: "Python", img: Python },
   { name: "Git", img: Git },
-  { name: "GitHub", img: Github },
+  { name: "GitHub", img: Github, invertOnLight: true },
 ];
 
 // Progress bars for the Skills section. A focused set is visible and the
@@ -53,6 +53,6 @@ export const skillBars = {
   ],
   extraRight: [
     { name: "Git", img: Git, level: 80 },
-    { name: "GitHub", img: Github, level: 82 },
+    { name: "GitHub", img: Github, level: 82, invertOnLight: true },
   ],
 };

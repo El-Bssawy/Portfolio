@@ -1019,6 +1019,11 @@ html[dir="rtl"] .marquee-track {
   object-fit: contain;
 }
 
+/* Logos that are white by default need to go dark on light backgrounds. */
+html[data-theme="light"] .invert-on-light {
+  filter: invert(0.9);
+}
+
 .skill-id h4 {
   font-size: 0.98rem;
 }

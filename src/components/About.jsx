@@ -103,7 +103,12 @@ export default function About() {
         <div className="marquee-track">
           {[...techLogos, ...techLogos].map((logo, i) => (
             <div className="marquee-item" key={`${logo.name}-${i}`}>
-              <img src={logo.img} alt={logo.name} draggable="false" />
+              <img
+                src={logo.img}
+                alt={logo.name}
+                draggable="false"
+                className={logo.invertOnLight ? "invert-on-light" : undefined}
+              />
               <span>{logo.name}</span>
             </div>
           ))}

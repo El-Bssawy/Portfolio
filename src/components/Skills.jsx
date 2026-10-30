@@ -10,7 +10,12 @@ function SkillBar({ skill, active }) {
       <div className="skill-bar-head">
         <div className="skill-id">
           <span className="skill-logo">
-            <img src={skill.img} alt="" draggable="false" />
+            <img
+              src={skill.img}
+              alt=""
+              draggable="false"
+              className={skill.invertOnLight ? "invert-on-light" : undefined}
+            />
           </span>
           <h4>{skill.name}</h4>
         </div>
