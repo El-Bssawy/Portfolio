@@ -16,7 +16,7 @@ const CODE_LINES = [
     { t: '"PHP"', c: "c-str" },
     { t: "]," },
   ],
-  [{ t: "  experience: " }, { t: '"1.5 years"', c: "c-str" }, { t: "," }],
+  [{ t: "  experience: " }, { t: '"1.5+ years"', c: "c-str" }, { t: "," }],
   [{ t: "  projects: " }, { t: "15", c: "c-bool" }, { t: "," }],
   [{ t: "  available: " }, { t: "true", c: "c-bool" }, { t: "," }],
   [{ t: "};" }],
