@@ -624,6 +624,7 @@ header.scrolled .header-inner {
   background: linear-gradient(160deg, rgba(91, 140, 255, 0.7), rgba(34, 211, 238, 0.3));
   box-shadow: var(--shadow);
   border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%;
+  overflow: hidden;
   animation: blob 8s ease-in-out infinite;
 }
 
