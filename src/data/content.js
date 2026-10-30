@@ -99,11 +99,7 @@ export const content = {
           icon: "fa-solid fa-rocket",
           color: "purple",
           title: "Going Professional",
-          points: [
-            "Worked with Sass & PugJS",
-            "Shipped fully responsive templates",
-            "Started building this portfolio",
-          ],
+          points: ["Worked with Sass & PugJS", "Shipped fully responsive templates"],
         },
         {
           year: "2026",
@@ -114,7 +110,7 @@ export const content = {
             "Going deeper into React & modern tooling",
             "Building reusable component systems",
             "Added PHP & TypeScript to my stack",
-            "Taking on freelance work",
+            "Started building this portfolio",
           ],
         },
         {
@@ -249,14 +245,14 @@ export const content = {
           icon: "fa-solid fa-rocket",
           color: "purple",
           title: "الاحتراف",
-          points: ["عملت بـ Sass و PugJS", "أطلقت قوالب متجاوبة بالكامل", "بدأت بناء هذا البورتفوليو"],
+          points: ["عملت بـ Sass و PugJS", "أطلقت قوالب متجاوبة بالكامل"],
         },
         {
           year: "2026",
           icon: "fa-brands fa-react",
           color: "orange",
           title: "المرحلة الحالية",
-          points: ["التعمّق في React والأدوات الحديثة", "بناء أنظمة مكوّنات قابلة لإعادة الاستخدام", "أضفت PHP و TypeScript إلى أدواتي", "بدء العمل الحر"],
+          points: ["التعمّق في React والأدوات الحديثة", "بناء أنظمة مكوّنات قابلة لإعادة الاستخدام", "أضفت PHP و TypeScript إلى أدواتي", "بدأت بناء هذا البورتفوليو"],
         },
         {
           year: "القادم",
