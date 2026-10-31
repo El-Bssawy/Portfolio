@@ -99,7 +99,7 @@ export const content = {
           icon: "fa-solid fa-rocket",
           color: "purple",
           title: "Going Professional",
-          points: ["Worked with Sass & PugJS", "Shipped fully responsive templates"],
+          points: ["Worked with SCSS & PugJS", "Shipped fully responsive templates"],
         },
         {
           year: "2026",
@@ -169,7 +169,7 @@ export const content = {
       firstName: "",
       name: "معاذ",
       roles: ["مطوّر ويب", "مطوّر React", "مهندس UI"],
-      experience: "سنة ونصف خبرة",
+      experience: "أكثر من سنة ونصف خبرة",
       tagline:
         "أحوّل الأفكار إلى تجارب ويب سريعة وسلسة ومتقنة — تبدو بنفس جمال استخدامها.",
       ctaPrimary: "شاهد أعمالي",
@@ -245,7 +245,7 @@ export const content = {
           icon: "fa-solid fa-rocket",
           color: "purple",
           title: "الاحتراف",
-          points: ["عملت بـ Sass و PugJS", "أطلقت قوالب متجاوبة بالكامل"],
+          points: ["عملت بـ SCSS و PugJS", "أطلقت قوالب متجاوبة بالكامل"],
         },
         {
           year: "2026",
