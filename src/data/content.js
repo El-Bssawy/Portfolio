@@ -75,6 +75,9 @@ export const content = {
     timeline: {
       title: "My Journey",
       subtitle: "The road so far, and where it's heading.",
+      hint: "Drag or scroll",
+      prev: "Previous",
+      next: "Next",
       items: [
         {
           year: "2024",
@@ -225,6 +228,9 @@ export const content = {
     timeline: {
       title: "رحلتي",
       subtitle: "الطريق حتى الآن، وإلى أين يتجه.",
+      hint: "اسحب أو مرّر",
+      prev: "السابق",
+      next: "التالي",
       items: [
         {
           year: "2024",
